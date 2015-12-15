@@ -13,7 +13,7 @@
             <tr>
                 <th><?= $this->Paginator->sort('id') ?></th>
                 <th><?= $this->Paginator->sort('post_id') ?></th>
-                <th><?= $this->Paginator->sort('user_from') ?></th>
+                <th><?= $this->Paginator->sort('comment_from') ?></th>
                 <th><?= $this->Paginator->sort('created') ?></th>
                 <th><?= $this->Paginator->sort('modified') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
@@ -24,7 +24,7 @@
             <tr>
                 <td><?= $this->Number->format($comment->id) ?></td>
                 <td><?= $comment->has('post') ? $this->Html->link($comment->post->id, ['controller' => 'Posts', 'action' => 'view', $comment->post->id]) : '' ?></td>
-                <td><?= $this->Number->format($comment->user_from) ?></td>
+                <td><?= $this->Number->format($comment->comment_from) ?></td>
                 <td><?= h($comment->created) ?></td>
                 <td><?= h($comment->modified) ?></td>
                 <td class="actions">

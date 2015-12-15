@@ -18,7 +18,7 @@
         <legend><?= __('Edit Comment') ?></legend>
         <?php
             echo $this->Form->input('post_id', ['options' => $posts]);
-            echo $this->Form->input('user_from');
+            echo $this->Form->input('comment_from');
             echo $this->Form->input('comment_content');
         ?>
     </fieldset>

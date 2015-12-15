@@ -21,8 +21,8 @@
             <td><?= $this->Number->format($comment->id) ?></td>
         </tr>
         <tr>
-            <th><?= __('User From') ?></th>
-            <td><?= $this->Number->format($comment->user_from) ?></td>
+            <th><?= __('Comment From') ?></th>
+            <td><?= $this->Number->format($comment->comment_from) ?></td>
         </tr>
         <tr>
             <th><?= __('Created') ?></th>

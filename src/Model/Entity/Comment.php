@@ -9,7 +9,7 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property int $post_id
  * @property \App\Model\Entity\Post $post
- * @property int $user_from
+ * @property int $comment_from
  * @property string $comment_content
  * @property \Cake\I18n\Time $created
  * @property \Cake\I18n\Time $modified

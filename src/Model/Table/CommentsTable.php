@@ -50,9 +50,9 @@ class CommentsTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->add('user_from', 'valid', ['rule' => 'numeric'])
-            ->requirePresence('user_from', 'create')
-            ->notEmpty('user_from');
+            ->add('comment_from', 'valid', ['rule' => 'numeric'])
+            ->requirePresence('comment_from', 'create')
+            ->notEmpty('comment_from');
 
         $validator
             ->allowEmpty('comment_content');
