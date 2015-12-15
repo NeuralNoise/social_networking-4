@@ -16,6 +16,7 @@ namespace App\Controller;
 
 use Cake\Controller\Controller;
 use Cake\Event\Event;
+use Cake\Routing\Router;
 
 /**
  * Application Controller
@@ -60,7 +61,18 @@ class AppController extends Controller
         
         // Allow the display action so our pages controller
         // continues to work.
-        $this->Auth->allow(['display']);
+        // $this->Auth->allow(['display']);
+        
+        
+        $this->loadComponent('AkkaFacebook.Graph', [
+        'app_id' => '',
+        'app_secret' => '',
+        'app_scope' => 'email', // https://developers.facebook.com/docs/facebook-login/permissions/v2.3
+        'redirect_url' => Router::url(['controller' => 'Users', 'action' => 'login'], TRUE), //ie. Router::url(['controller' => 'Users', 'action' => 'login'], TRUE),
+        'post_login_redirect' => Router::url(['controller' => 'Users', 'action' => 'index'], TRUE), //ie. Router::url(['controller' => 'Users', 'action' => 'account'], TRUE)
+        'user_columns' => ['first_name' => 'fname', 'last_name' => 'lname', 'username' => 'username', 'password' => 'password'] //not required
+        ]);
+        
         $this->set('authUser', $this->Auth->user());
     }
 

@@ -33,9 +33,9 @@ class UsersTable extends Table
 
         $this->addBehavior('Timestamp');
 
-        $this->belongsTo('Facebooks', [
-            'foreignKey' => 'facebook_id'
-        ]);
+//        $this->belongsTo('Facebooks', [
+//            'foreignKey' => 'facebook_id'
+//        ]);
         $this->hasMany('Posts', [
             'foreignKey' => 'user_id'
         ]);
@@ -89,7 +89,7 @@ class UsersTable extends Table
     {
         $rules->add($rules->isUnique(['email']));
         $rules->add($rules->isUnique(['username']));
-        $rules->add($rules->existsIn(['facebook_id'], 'Facebooks'));
+     //   $rules->add($rules->existsIn(['facebook_id'], 'Facebooks'));
         return $rules;
     }
 }

@@ -188,6 +188,8 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
+Plugin::load('AkkaFacebook', ['bootstrap' => false, 'routes' => true]);
+
 /**
  * Connect middleware/dispatcher filters.
  */

@@ -243,3 +243,576 @@ Stack Trace:
 #2 {main}
 
 
+2015-12-15 20:32:46 Error: [Cake\Core\Exception\MissingPluginException] Plugin AkkaFacebooks could not be found.
+Exception Attributes: array (
+  'plugin' => 'AkkaFacebooks',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\config\bootstrap.php(191): Cake\Core\Plugin::load('AkkaFacebooks', Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(27): require('C:\\xampp\\htdocs...')
+#2 {main}
+
+
+2015-12-15 20:50:19 Error: Fatal Error (1): Class 'App\Controller\Router' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 70]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 20:50:19 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Router' not found
+Request URL: /s_n_clone/social_networking/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-15 20:50:37 Error: Fatal Error (1): Class 'App\Controller\Router' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 70]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 20:50:37 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Router' not found
+Request URL: /s_n_clone/social_networking/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-15 20:50:53 Error: Fatal Error (1): Class 'App\Controller\Router' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 70]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 20:50:54 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Router' not found
+Request URL: /s_n_clone/social_networking/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-15 20:52:33 Error: Fatal Error (1): Class 'App\Controller\Router' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 70]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 20:52:34 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Router' not found
+Request URL: /s_n_clone/social_networking/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-15 22:32:02 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQAZ2e4JQhTVJaVGfzM0vmHYDqEX6yocc3tyuOKkLJm7oj08VJNectinIWuezhoCSWmZy4lCSMH0OEz8xoKzBwV5vHg_Awp7UbV0xT7nzyW-1UfwBF0nZ8dgZnQsEHT5EwIjmXJs2ns2Yl08-aJSt9-gwWDDqpdgM9qpuDJFMMOGwP9EyjagJ6TgZ1_EcYznT9WGeN5ZZsmNK6hJvWXAeGcacSHPi8n4yCMI-jLu1kXbSsMa-hKILTc0sMaQlSxmRFaSaxsnC_kzxHvPXzbHOVJttUX_nNmDEy4BR6qqtKe94Cr7ncKLhFW2NhXvS30ElCG8tYzHJC7J8d6Dnyh240Ak&state=e0f85f8d138788576781c4b17fd150af
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(390): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(338): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 22:37:39 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQBLuaHpBORcMvasWG78ah4epB7UMHJCc-poCohH9egg41j2fcsO30lNIoG3ojnO9g_2wIuCSdbHWzr5BRmX40VgW97ECpROSVocmdNhyzDV8dOnCHCNjiqtRaEc9anA4xBudgHa4Kx3EhhE2bJTljt6eY732TBXS7lfPA9B5NHSD80RxmloVPDiU7vY-FHL4EXyyf4DWtrCLHgVJgKVTjW_H8cZ8jHKfxf8PMTkJfD5zxYfGjC2qNzntYlXJgGvBdzPw6fqpRgxpZscuossP1V20U3uolhZdUhxhjzCssQ-M-pRUALRa9TlQcdQ1nYA8Tg&state=bd2a8c9d406c66a3dcc92f0587c6990d
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(386): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(334): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 22:39:07 Warning: Warning (4096): Object of class Facebook\GraphUser could not be converted to string in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php, line 246]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+AkkaFacebook\Controller\Component\GraphComponent::beforeFilter() - ROOT\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php, line 246
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-15 22:39:28 Error: This authorization code has been used.
+2015-12-15 22:39:37 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQBiLqL0N_BkwrMn0dukr7EwdBAytr4e7DdtD-bJ3NPvu2b5HHbgTuxsi6oyxXO5K2mYeEfSVTSauUSRfLRLU5hAdLjEkzK9ncZSjo_C7LzK1EjOgiQXhr4w4oWA6lSk5LqKaSm7U1z8hgiw7bqwOXcQ_ynVUdvkQkxZbfRkjp9YrtjPtMMAumWairgaMsjv_jNU-9rVNLQa6sGiMgS-lgO7y8k1vd7H-md8UijAmuxHK0LC9o9VWX4EQwJsQZVNNQ6fkyQkAwvcj0NKqFQmb_a55Uxe8v9ktpHIX8bf_xlsZbuEnsHr6hSaZ4D3tbduJQM0dVdpR9sim16g2D3yBERu&state=2c2d724f18f17faf3c02f19eb0689c7d
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(386): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(334): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 22:39:55 Error: This authorization code has been used.
+2015-12-15 22:40:02 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQA5RX3jZ5IaQWNjfa1naPnzsMMb7her4c2tR5o_8UvNzE5tPxGbpZUA_zJcgrzip7ZD1gQz48J1EzpxVqeRfL1Gx0wMl8PiTSvSh9a6ykYu2QGMoeND-w_m7OLu-RDdvO9Yc7bPrUOREXY6CWi4lcVIKk7UZ7dKd5PlZL5SPVKhtYxboSh3bbYBkb6nedvDOWVdodZqYNfIfQ69X0ke_64hcw3AiT2Bdyw9NGMooG_KEp68zIgugfCh2OnFUVszfZ2HjdcbWC4DHYndq_j5m8-uv7mStpymAWm1KQl5hjPEd2ujn6uRThDrM2GWR1m4Lq-vbY8rTMWMyy3cnntlevUd&state=de5fab43ed3587370ba97421da9b53ef
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(386): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(334): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 22:40:33 Error: This authorization code has been used.
+2015-12-15 22:41:43 Error: This authorization code has been used.
+2015-12-15 22:41:52 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQBZhZFPn_83ytN5qOFNLQK_URPyVHlVAAItzmfLd5pW-zwFYmvBC_0bZS-hxr8WXqfQukSb5zPjYPtSacguLVSUzruKtc8p5lkUnwuqGr_Ddi96WVVZKWW6j0DI8HZU7oyWsUvjvo2mVNx3FTYsuw2SH3VtZ3nU6DsiicmxhqmFIC3c52nRXTkix5rVT9_AJmKP0ZLm7HcPJFg5V7TjHP30o27XNAR_j22rAfzY57eUXoG-y3kAO-YTI4xWn-YBpQT0ZV8by4FgbpkuJ4xfGCars5yxgu17ymvnVzREN5zKHDLDMXhfEuYG76nEFebUVQa2H_efkXen649V-74FgK2p&state=4714ea1f567deebc154454103ee4916b
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(385): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(333): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 22:42:45 Error: This authorization code has been used.
+2015-12-15 22:42:53 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQBr6Wjw1nbyIeC4oSItxYXOWKdqnT5w8cliPcV0vg_JSLsb4qssySt92zpKV-FDhui6rgZ2d04mpVDjc00EwMoz4oSvJf2uC11nuuKeQwtbGDgeFVScMbCWQDOzbRg38U6APS33vNluNjGBzAQInVvwqjpqCBZm2FxZ-uxMO6zbeTbHePM26CKnZyfgHwLYPoRmZq6GnWM5Dvy8j4jrkGtrKeuFk2jQ7AGIzBpljXVl_-VbpQv94tWBYf_gIbEYjTbSXkWXhEGa806H3vd-yeEZbtUMTllIm7-ecDusPh70oUcBe6w5qCPQ2cSXQ70HGMwg-W0fxAZsdM3FAeIFPxiV&state=e147beb9a581ee2e9624b1bfa8185b76
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(385): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(333): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 22:46:10 Error: This authorization code has been used.
+2015-12-15 22:46:19 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQB5CzeT-3f8rItNE8Ry4XAOjzlV7VcTm5nARVelFDPsKTWzg_wymCUtZhJFHduXbdJeTeFloqOn58kv0FsDkyShWbFD-VcPearskBNBNWXOHGnEBjQop0sCKZ50mSjAHe1zBskfpJva52kdM5ejUrMQbsrcTMR5mZx8ZzZq4i6DCT95a71bbFAGkZDgt_VqNV35izn_xY0yxoyMNpg0HHb_kbSD9Nn0nisRRTj9Rep089klHcoIM70yBNn5LMp7DtEf5GIf79vKnvou-6PuCOwGNAnYYlWxoCtq638omvPK1CK7HgJIeXkED40e_e927QTMe20VwlXSLbdRCADITmhC&state=478d76e45d74bfefdff87b2c5f1f27b2
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(385): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(333): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 22:46:23 Error: This authorization code has been used.
+2015-12-15 22:47:26 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQAqSpaYGmJiXoAxMjkc2G3euP0ziZa9_pVb0WjZNCwhchr9a5gv6qXJtagCmy6PdmY-TE-ZElM45pzOwo1WT5aVWWj5kYGYp-2FXhcGd38wVL9B3Q9McxsrsVq5wC6xP9IUaUTIswyvNC0SuOsVpi3o2n3KlnBDsa6Uw7DJiSLZGkZKJRXTcrRXLb54ONa8YuMMp0r7UoNo1pS6a66aorB7j627YGdDsCtZ8_OcebDZtQizuvAyqnvXcoZPR4770r7mKQsc4hB-gkB4abtnd3pH-i8pCC5hZd0vcla3gvgzzxPoeQxgPSEpoHcewmTqTaFaEFXjjrs7HPb3sFK8wR8d&state=21c5ac1418c74568a2fb385d48c731bd
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(385): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(333): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 22:53:23 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQD-YwzahlbgJmYMi1EyspMLZg9JHbyxX8O7rChi4ZDpXQ0htEBGty9SoytBZpzyG5O2mnCp7gtX1JRiIkJDGKP1hqT81nfPUbx5vNLV5ecou_WsQcbmPG8cUpYwWd0kK-4bxcKzXXX3Gq-GYG52ewTBbHxc1ARGdVLD6fK03xf3IIBDPZeuGip17H0tZUlzfAAsDk5fVAZJfsz1WoWI6CoxOL5mFpZ3sdhCc4UcZlxIxY0-Qy1hiQx_Y7-HWxiEpjIRcVR8YpLVfHFkYED80SF0gjY4M2kEOszQyVGkE5YJ1akV__CmxVBANW4z4lUX0lU&state=812cd4064246ede91cb049f539e96441
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(385): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(333): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 23:00:49 Error: This authorization code has expired.
+2015-12-15 23:01:24 Error: This authorization code has expired.
+2015-12-15 23:02:02 Error: This authorization code has expired.
+2015-12-15 23:04:06 Error: This authorization code has been used.
+2015-12-15 23:04:45 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQDcF2ddxcf1ePuBPnb_n3tarJkQ_45u4BvPm-gSivz8THPeFgzZjTSURYCLEK3KW6n_Xx6AeQCnyaXQEWYK5CBjzORrtE_c32OUdMdKsK23-L3TKRyaCmrtthHpSKj8VNJOf2-yaunNpkt7HYOKg430fGb8Mj7kb-Dvw1uCTO0Z3uHIIyAgp1aFyRs7YRtAXe1L831_awtGj5PVC8sZSA4Zei8ccLb4-fjRVNI_YcbB3zi2jFszSdhNydKEBjyJNwSYNhUkJPNmdOHJH6BwM3I6d5kbGMvCT_-Z04r2TrR5NRPvMe5VtKPl8dPDEhVZJ_s&state=c5c669015450f6b67a172ee5f5da334d
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(385): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(333): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 23:09:42 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'social_networking.facebooks' doesn't exist
+Request URL: /s_n_clone/social_networking/users/login?code=AQBEHtjXhlVf0z5mi9OTZ1itawVYHM-gCXP7aleGQ7jOWu9rj5mGmazvVCyUfSuC1E5tkHr-kqSKJtsmqG1TCuREbrUQgOt7W6S7r9SyaZNOnRyDsa2qZQ4jacEelpEJStZrpkA9pie0Sj5bIrilfSgCeFYxEeegkYBpkCxr5mqM0MYJIXNcrRZjpDgHrAmtQl7G5UaaHtcUfhbQAxlqPvloh0hO5qsrUtiTaOeH6anqd5uqXPykew4CU2iByv-E6LD1nXkuepaLGKX0lAGYyFCouk6Nw78UQXQP_-qWY2qpt1lTQE6LfdWtFICVIO9J_Cg&state=a4f97afc17f07fab08ec8002c0a05f3f
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'facebooks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('facebooks', Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('facebooks')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 [internal function]: Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Association.php(896): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association->__call('primaryKey', Array)
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(95): Cake\ORM\Association\BelongsTo->primaryKey()
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\User), Array)
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(312): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(254): Cake\Datasource\RulesChecker->Cake\Datasource\{closure}(Object(App\Model\Entity\User), Array)
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(227): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1420): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#15 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#16 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#17 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(385): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#18 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(333): AkkaFacebook\Controller\Component\GraphComponent->__newAccount()
+#19 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#20 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#21 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#22 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#23 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#24 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#25 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2015-12-15 23:12:35 Warning: Warning (2): array_combine(): Both parameters should have an equal number of elements in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php, line 100]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+array_combine - [internal], line ??
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE\src\ORM\Rule\ExistsIn.php, line 100
+Cake\Datasource\RulesChecker::Cake\Datasource\{closure}() - CORE\src\Datasource\RulesChecker.php, line 312
+Cake\Datasource\RulesChecker::Cake\Datasource\{closure}() - CORE\src\Datasource\RulesChecker.php, line 312
+Cake\Datasource\RulesChecker::checkCreate() - CORE\src\Datasource\RulesChecker.php, line 254
+Cake\Datasource\RulesChecker::check() - CORE\src\Datasource\RulesChecker.php, line 227
+Cake\ORM\Table::checkRules() - CORE\src\Datasource\RulesAwareTrait.php, line 65
+Cake\ORM\Table::_processSave() - CORE\src\ORM\Table.php, line 1420
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE\src\ORM\Table.php, line 1377
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 557
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1378
+AkkaFacebook\Controller\Component\GraphComponent::__newAccount() - ROOT\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php, line 385
+AkkaFacebook\Controller\Component\GraphComponent::startup() - ROOT\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php, line 333
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 495
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-15 23:20:34 Error: Fatal Error (1): Call to undefined method AkkaFacebook\Controller\Component\GraphComponent::redirect() in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php, line 389]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 23:20:35 Error: [Cake\Error\FatalErrorException] Call to undefined method AkkaFacebook\Controller\Component\GraphComponent::redirect()
+Request URL: /s_n_clone/social_networking/users/login?code=AQDoAyT1zDCgGw9fBsevx2kCTjFAY1ijKpiQwTjSlH7CTr-UQ17X-1B7NTTpbcUz9VQpyGmwbs_o9PH13n1T3uonlUbWP3UDKzVWxKk44hn6IXKb0-L1C2K8R2e80525JexnvzzvGicl3ic0GhjbV5AqUg7p1hdD7165Mnr4OPZK004zy_UIlcrwAP6ye2wuGZoUMntttqGqDnmMYZhYVyEbDzZh4FY6NdPGB5nMr8m6Dai8DfXKt5NkwcoWfGgMwWjR0rx8FaeKrTzWNgDQX17GJHJhVqjIWjxXAyh0q75_d5gyEFbkVzW4Wh66BJL7kGc&state=0973901621956fae6a84dde4ac80706d
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 389)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-15 23:23:06 Error: This authorization code has been used.
+2015-12-15 23:23:36 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /s_n_clone/social_networking/users/login?code=AQAw86oY6vAdid33enXY-ai7oYgO37qsjMNED7s8hkZxheuoVavu0ZwaaWiaWpcj_BvZ5U91A99Y93MMD8WALfW1te0U1mhmcOQ7I8e-3CdL7jq-fJdfUBo-O6-99-iLrSRsLAiaQNr1VonAVumWg6nVag8rgOO_9dvUPKCM7YqvcbECXNpg5JVJWFlDxd16Cvuh483tuYNCUlAyVy316q5b0s9ElTcBEGP0jzxP_BQ01BtMibM72tZCdNNkBL1qUlHB4y64L4IVD14WOQ67Q-ln0mWkC6Ng2MRF4DDvJgxC-1cIuzsQYv_sEAcOMOd-QB8&state=bebd96aef147337d6455dd7d9dc6e414
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(325): Cake\ORM\Table->get(5)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->startup(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-12-15 23:38:31 Error: Fatal Error (1): Call to a member function build() on boolean in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 70]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 23:38:31 Error: [Cake\Error\FatalErrorException] Call to a member function build() on boolean
+Request URL: /s_n_clone/social_networking/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-15 23:39:12 Error: Fatal Error (1): Call to a member function build() on boolean in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 23:39:13 Error: [Cake\Error\FatalErrorException] Call to a member function build() on boolean
+Request URL: /s_n_clone/social_networking/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 65)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-15 23:39:57 Error: Fatal Error (1): Class 'App\Controller\Router' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 23:39:58 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Router' not found
+Request URL: /s_n_clone/social_networking/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 65)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-15 23:45:24 Error: Fatal Error (1): Call to a member function get_src() on boolean in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-15 23:45:25 Error: [Cake\Error\FatalErrorException] Call to a member function get_src() on boolean
+Request URL: /s_n_clone/social_networking/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 65)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
