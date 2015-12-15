@@ -19,8 +19,20 @@
             <td><?= h($user->email) ?></td>
         </tr>
         <tr>
+            <th><?= __('Username') ?></th>
+            <td><?= h($user->username) ?></td>
+        </tr>
+       <!-- <tr>
             <th><?= __('Password') ?></th>
             <td><?= h($user->password) ?></td>
+        </tr> -->
+        <tr>
+            <th><?= __('Role') ?></th>
+            <td><?= h($user->role) ?></td>
+        </tr>
+        <tr>
+            <th><?= __('Facebook Id') ?></th>
+            <td><?= h($user->facebook_id) ?></td>
         </tr>
         <tr>
             <th><?= __('Id') ?></th>

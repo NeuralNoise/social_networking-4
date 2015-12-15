@@ -19,8 +19,13 @@
     <fieldset>
         <legend><?= __('Edit User') ?></legend>
         <?php
-            echo $this->Form->input('email');
+           // echo $this->Form->input('email');
+            echo $this->Form->input('username');
             echo $this->Form->input('password');
+            echo $this->Form->input('role', [
+            'options' => ['admin' => 'Admin', 'user' => 'User']
+            ]);
+           // echo $this->Form->input('facebook_id');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

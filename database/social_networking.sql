@@ -69,7 +69,10 @@ CREATE TABLE IF NOT EXISTS `profiles` (
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(225) NOT NULL,
+  `username` varchar(50) DEFAULT NULL,
   `password` varchar(255) NOT NULL,
+  `role` varchar(20) DEFAULT 'user',
+  `facebook_id` varchar(20) DEFAULT NULL,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)

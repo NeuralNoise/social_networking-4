@@ -10,6 +10,7 @@ use Cake\Validation\Validator;
 /**
  * Users Model
  *
+ * @property \Cake\ORM\Association\BelongsTo $Facebooks
  * @property \Cake\ORM\Association\HasMany $Posts
  * @property \Cake\ORM\Association\HasMany $Profiles
  */
@@ -32,6 +33,9 @@ class UsersTable extends Table
 
         $this->addBehavior('Timestamp');
 
+        $this->belongsTo('Facebooks', [
+            'foreignKey' => 'facebook_id'
+        ]);
         $this->hasMany('Posts', [
             'foreignKey' => 'user_id'
         ]);
@@ -58,8 +62,18 @@ class UsersTable extends Table
             ->notEmpty('email');
 
         $validator
+            ->notEmpty('username');
+
+        $validator
             ->requirePresence('password', 'create')
             ->notEmpty('password');
+
+        $validator
+            ->notEmpty('role', 'A role is required')
+            ->add('role', 'inList', [
+                'rule' => ['inList', ['admin', 'user']],
+                'message' => 'Please enter a valid role'
+            ]);
 
         return $validator;
     }
@@ -74,6 +88,8 @@ class UsersTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->isUnique(['email']));
+        $rules->add($rules->isUnique(['username']));
+        $rules->add($rules->existsIn(['facebook_id'], 'Facebooks'));
         return $rules;
     }
 }
