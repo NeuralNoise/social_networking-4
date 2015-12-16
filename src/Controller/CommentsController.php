@@ -11,6 +11,15 @@ use App\Controller\AppController;
 class CommentsController extends AppController
 {
 
+    public function isAuthorized($user)
+    {      
+        if (in_array($this->request->action, ['addComment'])) {
+            return true;
+        }
+        
+        return parent::isAuthorized($user);
+    }
+    
     /**
      * Index method
      *
@@ -61,6 +70,25 @@ class CommentsController extends AppController
         $posts = $this->Comments->Posts->find('list', ['limit' => 200]);
         $this->set(compact('comment', 'posts'));
         $this->set('_serialize', ['comment']);
+    }
+    
+    public function addComment($post_id)
+    {
+        $comment = $this->Comments->newEntity();
+        if ($this->request->is('post')) {
+            $this->request->data['post_id'] = $post_id;
+            $comment = $this->Comments->patchEntity($comment, $this->request->data);
+            if ($this->Comments->save($comment)) {
+                $this->Flash->success(__('The comment has been saved.'));
+                return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error(__('The comment could not be saved. Please, try again.'));
+            }
+        }
+        $posts = $this->Comments->Posts->find('list', ['limit' => 200]);
+        $this->set(compact('comment', 'posts'));
+        $this->set('_serialize', ['comment']);
+        $this->set('post_id',$post_id);
     }
 
     /**

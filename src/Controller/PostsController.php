@@ -11,6 +11,15 @@ use App\Controller\AppController;
 class PostsController extends AppController
 {
 
+    public function isAuthorized($user)
+    {      
+        if (in_array($this->request->action, ['addPost','indexPost','viewPost','deletePost'])) {
+            return true;
+        }
+        
+        return parent::isAuthorized($user);
+    }
+    
     /**
      * Index method
      *
@@ -24,6 +33,15 @@ class PostsController extends AppController
         $this->set('posts', $this->paginate($this->Posts));
         $this->set('_serialize', ['posts']);
     }
+    
+        public function indexPost()
+        {
+            $this->paginate = [
+                'contain' => ['Users']
+            ];
+            $this->set('posts', $this->paginate($this->Posts));
+            $this->set('_serialize', ['posts']);
+        }
 
     /**
      * View method
@@ -40,6 +58,15 @@ class PostsController extends AppController
         $this->set('post', $post);
         $this->set('_serialize', ['post']);
     }
+    
+    public function viewPost($id = null)
+    {
+        $post = $this->Posts->get($id, [
+            'contain' => ['Users', 'Comments']
+        ]);
+        $this->set('post', $post);
+        $this->set('_serialize', ['post']);
+    }
 
     /**
      * Add method
@@ -47,6 +74,23 @@ class PostsController extends AppController
      * @return void Redirects on successful add, renders view otherwise.
      */
     public function add()
+    {
+        $post = $this->Posts->newEntity();
+        if ($this->request->is('post')) {
+            $post = $this->Posts->patchEntity($post, $this->request->data);
+            if ($this->Posts->save($post)) {
+                $this->Flash->success(__('The post has been saved.'));
+                return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error(__('The post could not be saved. Please, try again.'));
+            }
+        }
+        $users = $this->Posts->Users->find('list', ['limit' => 200]);
+        $this->set(compact('post', 'users'));
+        $this->set('_serialize', ['post']);
+    }
+    
+        public function addPost()
     {
         $post = $this->Posts->newEntity();
         if ($this->request->is('post')) {
@@ -106,5 +150,17 @@ class PostsController extends AppController
             $this->Flash->error(__('The post could not be deleted. Please, try again.'));
         }
         return $this->redirect(['action' => 'index']);
+    }
+    
+        public function deletePost($id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $post = $this->Posts->get($id);
+        if ($this->Posts->delete($post)) {
+            $this->Flash->success(__('The post has been deleted.'));
+        } else {
+            $this->Flash->error(__('The post could not be deleted. Please, try again.'));
+        }
+        return $this->redirect(['action' => 'indexPost']);
     }
 }

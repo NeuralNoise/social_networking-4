@@ -7,8 +7,8 @@
         <li><?= $this->Html->link(__('New User'), ['action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('List Posts'), ['controller' => 'Posts', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Post'), ['controller' => 'Posts', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Profiles'), ['controller' => 'Profiles', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Profile'), ['controller' => 'Profiles', 'action' => 'add']) ?> </li>
+        <!-- <li><?= $this->Html->link(__('List Profiles'), ['controller' => 'Profiles', 'action' => 'index']) ?> </li> -->
+        <!-- <li><?= $this->Html->link(__('New Profile'), ['controller' => 'Profiles', 'action' => 'add']) ?> </li> -->
     </ul>
 </nav>
 <div class="users view large-9 medium-8 columns content">
@@ -81,6 +81,7 @@
         </table>
     <?php endif; ?>
     </div>
+    <!--
     <div class="related">
         <h4><?= __('Related Profiles') ?></h4>
         <?php if (!empty($user->profiles)): ?>
@@ -119,4 +120,5 @@
         </table>
     <?php endif; ?>
     </div>
+    -->
 </div>

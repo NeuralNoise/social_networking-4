@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Event\Event;
+use Cake\Routing\Router;
 
 /**
  * Users Controller
@@ -15,6 +16,16 @@ class UsersController extends AppController {
     public function beforeFilter(Event $event) {
         parent::beforeFilter($event);
         $this->Auth->allow('signup');
+    }
+    
+    public function isAuthorized($user)
+    {      
+
+        if (in_array($this->request->action, ['index', 'logout', 'editUser'])) {
+            return true;
+        }
+
+        return parent::isAuthorized($user);
     }
 
     public function login() {
@@ -54,6 +65,14 @@ class UsersController extends AppController {
      * @return void
      */
     public function index() {
+        
+        $user = $this->Auth->user();
+
+        // Admin can access every action
+        if (isset($user['role']) && $user['role'] === 'user') {
+           $this->redirect(Router::url(['controller' => 'Users', 'action' => 'editUser/'.$user['id']], TRUE));
+        }
+        
         $this->set('users', $this->paginate($this->Users));
         $this->set('_serialize', ['users']);
     }
@@ -101,6 +120,23 @@ class UsersController extends AppController {
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function edit($id = null) {
+        $user = $this->Users->get($id, [
+            'contain' => []
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $user = $this->Users->patchEntity($user, $this->request->data);
+            if ($this->Users->save($user)) {
+                $this->Flash->success(__('The user has been saved.'));
+                return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error(__('The user could not be saved. Please, try again.'));
+            }
+        }
+        $this->set(compact('user'));
+        $this->set('_serialize', ['user']);
+    }
+    
+    public function editUser($id = null) {
         $user = $this->Users->get($id, [
             'contain' => []
         ]);

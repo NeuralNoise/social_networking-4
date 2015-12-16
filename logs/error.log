@@ -816,3 +816,688 @@ Stack Trace:
 #2 {main}
 
 
+2015-12-16 07:33:40 Error: [Facebook\FacebookSDKException] You must provide or set a default application id.
+Request URL: /s_n_clone/social_networking/users/login?code=AQD-YwzahlbgJmYMi1EyspMLZg9JHbyxX8O7rChi4ZDpXQ0htEBGty9SoytBZpzyG5O2mnCp7gtX1JRiIkJDGKP1hqT81nfPUbx5vNLV5ecou_WsQcbmPG8cUpYwWd0kK-4bxcKzXXX3Gq-GYG52ewTBbHxc1ARGdVLD6fK03xf3IIBDPZeuGip17H0tZUlzfAAsDk5fVAZJfsz1WoWI6CoxOL5mFpZ3sdhCc4UcZlxIxY0-Qy1hiQx_Y7-HWxiEpjIRcVR8YpLVfHFkYED80SF0gjY4M2kEOszQyVGkE5YJ1akV__CmxVBANW4z4lUX0lU&state=812cd4064246ede91cb049f539e96441
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\facebook\php-sdk-v4\src\Facebook\FacebookRedirectLoginHelper.php(75): Facebook\FacebookSession::_getTargetAppId(NULL)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\akkaweb\cakephp-facebook\src\Controller\Component\GraphComponent.php(229): Facebook\FacebookRedirectLoginHelper->__construct('http://localhos...')
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): AkkaFacebook\Controller\Component\GraphComponent->beforeFilter(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-12-16 10:11:48 Error: [Cake\Core\Exception\Exception] App\Controller\PagesController does not implement an isAuthorized() method.
+Request URL: /s_n_clone/social_networking/
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(58): Cake\Auth\ControllerAuthorize->controller(Object(App\Controller\PagesController))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(535): Cake\Auth\ControllerAuthorize->__construct(Object(Cake\Controller\ComponentRegistry), Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(491): Cake\Controller\Component\AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(305): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#11 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-12-16 10:12:26 Error: [Cake\Core\Exception\Exception] App\Controller\PagesController does not implement an isAuthorized() method.
+Request URL: /s_n_clone/social_networking/
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(58): Cake\Auth\ControllerAuthorize->controller(Object(App\Controller\PagesController))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(535): Cake\Auth\ControllerAuthorize->__construct(Object(Cake\Controller\ComponentRegistry), Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(491): Cake\Controller\Component\AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(305): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#11 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-12-16 10:14:33 Error: Fatal Error (1): Call to a member function user() on boolean in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\AppController.php, line 89]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 10:14:34 Error: [Cake\Error\FatalErrorException] Call to a member function user() on boolean
+Request URL: /s_n_clone/social_networking/
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 10:15:12 Error: [Cake\Core\Exception\Exception] App\Controller\PagesController does not implement an isAuthorized() method.
+Request URL: /s_n_clone/social_networking/
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(58): Cake\Auth\ControllerAuthorize->controller(Object(App\Controller\PagesController))
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(535): Cake\Auth\ControllerAuthorize->__construct(Object(Cake\Controller\ComponentRegistry), Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(491): Cake\Controller\Component\AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(305): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#11 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-12-16 10:33:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Logout could not be found.
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /s_n_clone/social_networking/logout
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-16 10:34:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Add could not be found.
+Exception Attributes: array (
+  'class' => 'Add',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /s_n_clone/social_networking/add
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-16 11:30:17 Warning: Warning (2): session_regenerate_id(): Session object destruction failed in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Network\Session.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+session_regenerate_id - [internal], line ??
+Cake\Network\Session::renew() - CORE\src\Network\Session.php, line 576
+Cake\Auth\Storage\SessionStorage::write() - CORE\src\Auth\Storage\SessionStorage.php, line 101
+Cake\Controller\Component\AuthComponent::setUser() - CORE\src\Controller\Component\AuthComponent.php, line 631
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 53
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 11:30:18 Warning: Warning (2): session_regenerate_id(): Session object destruction failed in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Network\Session.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+session_regenerate_id - [internal], line ??
+Cake\Network\Session::renew() - CORE\src\Network\Session.php, line 576
+Cake\Auth\Storage\SessionStorage::write() - CORE\src\Auth\Storage\SessionStorage.php, line 101
+Cake\Controller\Component\AuthComponent::setUser() - CORE\src\Controller\Component\AuthComponent.php, line 631
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 53
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 11:35:40 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php, line 90]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 11:35:40 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /s_n_clone/social_networking/users/
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 90)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 11:36:42 Error: Fatal Error (1): Class 'App\Controller\Router' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php, line 90]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 11:36:42 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Router' not found
+Request URL: /s_n_clone/social_networking/users/
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 90)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 11:38:08 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 11:38:09 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /s_n_clone/social_networking/users/
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 92)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 11:39:14 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "users" with primary key [NULL]
+Request URL: /s_n_clone/social_networking/users/edit-user
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(161): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\UsersController->editUser()
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-16 11:39:31 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /s_n_clone/social_networking/users/edit-user/1
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(161): Cake\ORM\Table->get('1', Array)
+#2 [internal function]: App\Controller\UsersController->editUser('1')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-16 11:39:43 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\edit_user.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\edit_user.ctp',
+)
+Request URL: /s_n_clone/social_networking/users/edit-user/3
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-16 11:48:00 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "users" with primary key [NULL]
+Request URL: /s_n_clone/social_networking/users/edit-user?id=3
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(160): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\UsersController->editUser()
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-16 11:48:38 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "users" with primary key [NULL]
+Request URL: /s_n_clone/social_networking/users/edit-user?id=3
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(160): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\UsersController->editUser()
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-16 13:26:05 Error: [BadMethodCallException] Unknown method "saveAssociated"
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): Cake\ORM\Table->__call('saveAssociated', Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): App\Model\Table\UsersTable->saveAssociated(Array, Array)
+#2 [internal function]: App\Controller\UsersController->signup()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-16 13:27:32 Error: [BadMethodCallException] Unknown method "saveAssociated"
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): Cake\ORM\Table->__call('saveAssociated', Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): App\Model\Table\UsersTable->saveAssociated(Array, Array)
+#2 [internal function]: App\Controller\UsersController->signup()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-16 13:44:16 Error: [BadMethodCallException] Unknown method "saveAssociated"
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): Cake\ORM\Table->__call('saveAssociated', Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): App\Model\Table\UsersTable->saveAssociated(Array, Array)
+#2 [internal function]: App\Controller\UsersController->signup()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-16 13:45:52 Error: Fatal Error (1): Call to a member function saveAssociated() on boolean in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 13:45:52 Error: [Cake\Error\FatalErrorException] Call to a member function saveAssociated() on boolean
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 13:46:33 Error: [BadMethodCallException] Unknown method "saveAssociated"
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): Cake\ORM\Table->__call('saveAssociated', Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): App\Model\Table\UsersTable->saveAssociated(Array, Array)
+#2 [internal function]: App\Controller\UsersController->signup()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-16 13:47:11 Error: [BadMethodCallException] Unknown method "saveAssociated"
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): Cake\ORM\Table->__call('saveAssociated', Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): App\Model\Table\UsersTable->saveAssociated(Array, Array)
+#2 [internal function]: App\Controller\UsersController->signup()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-16 13:48:48 Error: [BadMethodCallException] Unknown method "saveMany"
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): Cake\ORM\Table->__call('saveMany', Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(57): App\Model\Table\UsersTable->saveMany(Array, Array)
+#2 [internal function]: App\Controller\UsersController->signup()
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-16 14:03:25 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, array given, called in C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php on line 55 and defined in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1356
+App\Controller\UsersController::signup() - APP/Controller\UsersController.php, line 55
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 14:03:25 Error: Fatal Error (1): Call to a member function errors() on array in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php, line 1366]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 14:03:26 Error: [Cake\Error\FatalErrorException] Call to a member function errors() on array
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 1366)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 14:05:30 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, array given, called in C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php on line 56 and defined in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1356
+App\Controller\UsersController::signup() - APP/Controller\UsersController.php, line 56
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 14:05:30 Error: Fatal Error (1): Call to a member function errors() on array in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php, line 1366]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 14:05:30 Error: [Cake\Error\FatalErrorException] Call to a member function errors() on array
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 1366)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 14:06:56 Error: Fatal Error (1): Class 'App\Controller\TableRegistry' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 14:06:56 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\TableRegistry' not found
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 14:41:39 Error: [InvalidArgumentException] Could not save profiles, it cannot be traversed
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(251): Cake\ORM\Association\HasMany->saveAssociated(Object(App\Model\Entity\User), Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(227): Cake\ORM\AssociationCollection->_save(Object(Cake\ORM\Association\HasMany), Object(App\Model\Entity\User), Array, Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(192): Cake\ORM\AssociationCollection->_saveAssociations(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array, true)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1457): Cake\ORM\AssociationCollection->saveChildren(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(61): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#8 [internal function]: App\Controller\UsersController->signup()
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#12 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-12-16 14:45:51 Error: [InvalidArgumentException] Could not save profiles, it cannot be traversed
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(251): Cake\ORM\Association\HasMany->saveAssociated(Object(App\Model\Entity\User), Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(227): Cake\ORM\AssociationCollection->_save(Object(Cake\ORM\Association\HasMany), Object(App\Model\Entity\User), Array, Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(192): Cake\ORM\AssociationCollection->_saveAssociations(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array, true)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1457): Cake\ORM\AssociationCollection->saveChildren(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(62): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#8 [internal function]: App\Controller\UsersController->signup()
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#12 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-12-16 15:50:37 Error: [InvalidArgumentException] Could not save profiles, it cannot be traversed
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(251): Cake\ORM\Association\HasMany->saveAssociated(Object(App\Model\Entity\User), Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(227): Cake\ORM\AssociationCollection->_save(Object(Cake\ORM\Association\HasMany), Object(App\Model\Entity\User), Array, Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(192): Cake\ORM\AssociationCollection->_saveAssociations(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array, true)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1457): Cake\ORM\AssociationCollection->saveChildren(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(62): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#8 [internal function]: App\Controller\UsersController->signup()
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#12 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-12-16 15:54:18 Error: [InvalidArgumentException] Could not save profiles, it cannot be traversed
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(251): Cake\ORM\Association\HasMany->saveAssociated(Object(App\Model\Entity\User), Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(227): Cake\ORM\AssociationCollection->_save(Object(Cake\ORM\Association\HasMany), Object(App\Model\Entity\User), Array, Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(192): Cake\ORM\AssociationCollection->_saveAssociations(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array, true)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1457): Cake\ORM\AssociationCollection->saveChildren(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(62): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#8 [internal function]: App\Controller\UsersController->signup()
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#12 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-12-16 16:01:55 Error: [InvalidArgumentException] Could not save profiles, it cannot be traversed
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(251): Cake\ORM\Association\HasMany->saveAssociated(Object(App\Model\Entity\User), Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(227): Cake\ORM\AssociationCollection->_save(Object(Cake\ORM\Association\HasMany), Object(App\Model\Entity\User), Array, Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(192): Cake\ORM\AssociationCollection->_saveAssociations(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array, true)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1457): Cake\ORM\AssociationCollection->saveChildren(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(63): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#8 [internal function]: App\Controller\UsersController->signup()
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#12 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-12-16 16:02:37 Error: [InvalidArgumentException] Could not save profiles, it cannot be traversed
+Request URL: /s_n_clone/social_networking/users/signup
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(251): Cake\ORM\Association\HasMany->saveAssociated(Object(App\Model\Entity\User), Array)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(227): Cake\ORM\AssociationCollection->_save(Object(Cake\ORM\Association\HasMany), Object(App\Model\Entity\User), Array, Array)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(192): Cake\ORM\AssociationCollection->_saveAssociations(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array, true)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1457): Cake\ORM\AssociationCollection->saveChildren(Object(App\Model\Table\UsersTable), Object(App\Model\Entity\User), Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\UsersController.php(63): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#8 [internal function]: App\Controller\UsersController->signup()
+#9 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#12 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-12-16 16:42:15 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 16:42:16 Error: [Cake\Error\FatalErrorException] Class 'AuthComponent' not found
+Request URL: /s_n_clone/social_networking/posts/add-post
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'AuthComp...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 16:43:53 Error: Fatal Error (1): Class 'Router' not found in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 16:43:53 Error: [Cake\Error\FatalErrorException] Class 'Router' not found
+Request URL: /s_n_clone/social_networking/posts/add-post
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Router' ...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 16:48:50 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-16 16:48:51 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null
+Request URL: /s_n_clone/social_networking/posts/add-post
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-16 17:16:27 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "posts"
+Request URL: /s_n_clone/social_networking/posts/view-post/1
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\PostsController.php(66): Cake\ORM\Table->get('1', Array)
+#2 [internal function]: App\Controller\PostsController->viewPost('1')
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#6 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-12-16 17:30:18 Error: [Cake\Controller\Exception\MissingActionException] Action PostsController::editUser() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'editUser',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /s_n_clone/social_networking/posts/edit-user/23
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#2 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-16 17:31:01 Error: [Cake\Controller\Exception\MissingActionException] Action PostsController::editUser() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'editUser',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /s_n_clone/social_networking/posts/edit-user/23
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#2 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-16 17:56:13 Warning: Warning (2): Missing argument 1 for App\Controller\CommentsController::addComment() in [C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\CommentsController.php, line 75]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+App\Controller\CommentsController::addComment() - APP/Controller\CommentsController.php, line 75
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 17:59:22 Error: [Cake\Controller\Exception\MissingActionException] Action CommentsController::indexPost() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'indexPost',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /s_n_clone/social_networking/comments/index-post
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CommentsController))
+#2 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-16 17:59:57 Error: [Cake\Controller\Exception\MissingActionException] Action CommentsController::indexPost() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'indexPost',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /s_n_clone/social_networking/comments/index-post
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CommentsController))
+#2 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-16 18:09:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`social_networking`.`comments`, CONSTRAINT `comment_post_key` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /s_n_clone/social_networking/posts/delete-post/2
+Stack Trace:
+#0 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1711): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1643): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\Post), Object(ArrayObject))
+#7 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\ORM\Table.php(1648): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\xampp\htdocs\s_n_clone\social_networking\src\Controller\PostsController.php(159): Cake\ORM\Table->delete(Object(App\Model\Entity\Post))
+#10 [internal function]: App\Controller\PostsController->deletePost('2')
+#11 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#14 C:\xampp\htdocs\s_n_clone\social_networking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+

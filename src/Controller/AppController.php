@@ -53,11 +53,22 @@ class AppController extends Controller
                     ]
                 ]
             ],
+            'authorize' => ['Controller'],
             'loginAction' => [
                 'controller' => 'Users',
                 'action' => 'login'
-            ]
+            ],
+            'loginRedirect' => [
+                'controller' => 'Users',
+                'action' => 'index'
+            ],
+            'logoutRedirect' => [
+                'controller' => 'Users',
+                'action' => 'login'
+            ] 
         ]);
+    
+
         
         // Allow the display action so our pages controller
         // continues to work.
@@ -65,8 +76,8 @@ class AppController extends Controller
         
         
         $this->loadComponent('AkkaFacebook.Graph', [
-        'app_id' => '',
-        'app_secret' => '',
+        'app_id' => '1021548931219941',
+        'app_secret' => '98b82c08f2d64cfcaac74a2a295da49a',
         'app_scope' => 'email', // https://developers.facebook.com/docs/facebook-login/permissions/v2.3
         'redirect_url' => Router::url(['controller' => 'Users', 'action' => 'login'], TRUE), //ie. Router::url(['controller' => 'Users', 'action' => 'login'], TRUE),
         'post_login_redirect' => Router::url(['controller' => 'Users', 'action' => 'index'], TRUE), //ie. Router::url(['controller' => 'Users', 'action' => 'account'], TRUE)
@@ -74,6 +85,17 @@ class AppController extends Controller
         ]);
         
         $this->set('authUser', $this->Auth->user());
+    }
+    
+    public function isAuthorized($user)
+    {
+        // Admin can access every action
+        if (isset($user['role']) && $user['role'] === 'admin') {
+            return true;
+        }
+
+        // Default deny
+        return false;
     }
 
     /**
@@ -90,4 +112,5 @@ class AppController extends Controller
             $this->set('_serialize', true);
         }
     }
+    
 }

@@ -167,3 +167,139 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-12-16 16:40:20 Notice: Deprecated (16384): SessionHelper has been deprecated. Use request->session() instead. in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\View\Helper\SessionHelper.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+Cake\View\Helper\SessionHelper::__construct() - CORE\src\View\Helper\SessionHelper.php, line 39
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 142
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 93
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 66
+Cake\View\View::__get() - CORE\src\View\View.php, line 867
+include - APP/Template\Posts\add_post.ctp, line 12
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 16:40:20 Notice: Notice (8): Undefined variable: usersId in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Posts\add_post.ctp, line 13
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 16:47:33 Notice: Deprecated (16384): SessionHelper has been deprecated. Use request->session() instead. in [C:\xampp\htdocs\s_n_clone\social_networking\vendor\cakephp\cakephp\src\View\Helper\SessionHelper.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+Cake\View\Helper\SessionHelper::__construct() - CORE\src\View\Helper\SessionHelper.php, line 39
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 142
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 93
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 66
+Cake\View\View::__get() - CORE\src\View\View.php, line 867
+include - APP/Template\Posts\add_post.ctp, line 12
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 16:47:33 Notice: Notice (8): Undefined variable: usersId in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Posts\add_post.ctp, line 13
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 16:49:55 Notice: Notice (8): Undefined variable: usersId in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Posts\add_post.ctp, line 13
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 16:50:23 Notice: Notice (8): Undefined variable: usersId in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Posts\add_post.ctp, line 13
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 16:50:50 Notice: Notice (8): Undefined variable: usersId in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Posts\add_post.ctp, line 14
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 16:51:32 Notice: Notice (8): Undefined variable: usersId in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Posts\add_post.ctp, line 14
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-16 16:51:44 Notice: Notice (8): Undefined variable: usersId in [C:\xampp\htdocs\s_n_clone\social_networking\src\Template\Posts\add_post.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+include - APP/Template\Posts\add_post.ctp, line 14
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
